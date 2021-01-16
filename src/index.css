@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.chess-table {
+    border: 1px solid black;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.chess-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chess-statistic {
+    padding: 32px;
+    font-family: Roboto;
+    font-size: 22px;
+}
+.chess-container {
+    display: flex;
+}
+.canplay-circle {
+    background: #03a17c;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+.chess-row {
+    display: flex;
 }
